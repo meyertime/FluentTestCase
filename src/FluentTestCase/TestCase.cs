@@ -27,7 +27,7 @@ namespace FluentTestCase
         { }
     }
 
-    public abstract class TestCase<TSubject>
+    public abstract class TestCase<TSubject> : TestCase
     {
         public TSubject Subject { get; set; }
     }
